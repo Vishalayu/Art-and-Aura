@@ -1,2 +1,2 @@
 # Art-and-Aura
-wanna to make webiste
+ "Art and Aura - Paintings & Handmade Creations"
