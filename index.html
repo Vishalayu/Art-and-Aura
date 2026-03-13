@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Art and Aura</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#fafafa;
+}
+
+header{
+    background:#222;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    background:#444;
+}
+
+nav a{
+    color:white;
+    padding:14px 20px;
+    text-decoration:none;
+}
+
+nav a:hover{
+    background:#666;
+}
+
+.hero{
+    background:url("https://images.unsplash.com/photo-1513364776144-60967b0f800f") center/cover;
+    height:350px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-size:40px;
+    font-weight:bold;
+}
+
+.section{
+    padding:40px;
+    text-align:center;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.price{
+    color:#e63946;
+    font-weight:bold;
+}
+
+button{
+    background:#222;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#444;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Art and Aura</h1>
+<p>Paintings & Handmade Creations</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#paintings">Paintings</a>
+<a href="#handmade">Handmade</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+Unique Art for Your Space
+</div>
+
+<section class="section" id="paintings">
+<h2>Our Paintings</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5">
+<h3>Abstract Painting</h3>
+<p class="price">₹3000</p>
+<button>Buy Now</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1549887534-3ec93abae56f">
+<h3>Nature Painting</h3>
+<p class="price">₹2500</p>
+<button>Buy Now</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+<h3>Modern Art</h3>
+<p class="price">₹3500</p>
+<button>Buy Now</button>
+</div>
+
+</div>
+</section>
+
+<section class="section" id="handmade">
+<h2>Handmade Products</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1616628182506-38b5b16a7d3c">
+<h3>Handmade Candle</h3>
+<p class="price">₹500</p>
+<button>Buy Now</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad">
+<h3>Decor Craft</h3>
+<p class="price">₹800</p>
+<button>Buy Now</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1603575448364-78b3d8e8a7e6">
+<h3>Handmade Frame</h3>
+<p class="price">₹1200</p>
+<button>Buy Now</button>
+</div>
+
+</div>
+</section>
+
+<section class="section" id="contact">
+<h2>Contact Us</h2>
+
+<form>
+<input type="text" placeholder="Your Name" required style="padding:10px;width:250px"><br><br>
+<input type="email" placeholder="Your Email" required style="padding:10px;width:250px"><br><br>
+<textarea placeholder="Your Message" style="padding:10px;width:250px;height:100px"></textarea><br><br>
+<button type="submit">Send Message</button>
+</form>
+
+</section>
+
+<footer>
+<p>© 2026 Art and Aura | Handmade with Love</p>
+</footer>
+
+</body>
+</html>
